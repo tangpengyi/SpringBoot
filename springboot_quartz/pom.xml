@@ -5,13 +5,13 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.3.3.RELEASE</version>
+        <version>2.1.16.RELEASE</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.tpy</groupId>
-    <artifactId>springboot_jdbc_druid</artifactId>
+    <artifactId>springboot_quartz</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>springboot_jdbc_druid</name>
+    <name>springboot_quartz</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
@@ -25,16 +25,8 @@
         </dependency>
 
         <dependency>
-            <groupId>com.microsoft.sqlserver</groupId>
-            <artifactId>mssql-jdbc</artifactId><!--sqlserver依赖  驱动jar-->
-            <scope>runtime</scope>
-            <version>6.4.0.jre8</version>
-        </dependency>
-
-        <dependency>
-            <groupId>com.alibaba</groupId>
-            <artifactId>druid</artifactId>
-            <version>1.1.10</version>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-quartz</artifactId>
         </dependency>
 
         <dependency>

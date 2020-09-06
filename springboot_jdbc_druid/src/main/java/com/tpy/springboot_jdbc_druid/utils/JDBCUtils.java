@@ -5,6 +5,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 import javax.sql.DataSource;
+import java.lang.reflect.Field;
 import java.sql.*;
 import java.util.HashMap;
 import java.util.Map;
@@ -16,7 +17,7 @@ public class JDBCUtils {
     private DataSource dataSource;
 
     //查询数据，返回数据集
-    public ResponseResult queryData(String sSql, Object ... params) {
+    public ResponseResult queryData(String sSql,Class clazz, Object ... params) {
         PreparedStatement ps = null;
         ResultSet rs = null;
         try {
@@ -29,6 +30,7 @@ public class JDBCUtils {
 
             //4.执行
             rs = ps.executeQuery();
+
             //循环取出雇员的名字，薪水，部门的编号
             while (rs.next()) {
                 String color_no = rs.getString("color_no");
@@ -134,6 +136,14 @@ public class JDBCUtils {
 
         if(rs != null)
             rs.close();
+    }
+
+
+    public static void setProperty(Object obj,String name,Object value) throws NoSuchFieldException, IllegalAccessException {
+        Class<?> aClass = obj.getClass();
+        Field declaredField = aClass.getDeclaredField(name);
+        declaredField.setAccessible(true);
+        declaredField.set(obj,value);
     }
 }
 
