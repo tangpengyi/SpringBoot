@@ -2,41 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="049de013-96fe-41a7-9746-700ae7684811" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/springboot_jdbc_druid/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_jdbc_druid/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_jdbc_druid/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_jdbc_druid/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_jdbc_druid/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_jdbc_druid/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_jdbc_druid/src/main/java/com/tpy/springboot_jdbc_druid/entity/Color.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_quartz/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_quartz/src/main/java/com/tpy/springboot_quartz/ApplicationQuartzMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_quartz/src/main/java/com/tpy/springboot_quartz/config/QuartzConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_quartz/src/main/java/com/tpy/springboot_quartz/controller/HelloController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_quartz/src/main/java/com/tpy/springboot_quartz/dao/ConfigMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_quartz/src/main/java/com/tpy/springboot_quartz/job/ScheduledTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_quartz/src/main/java/com/tpy/springboot_quartz/job/ScheduledTask2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_quartz/src/main/java/com/tpy/springboot_quartz/service/ScheduleRefreshService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_quartz/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_quartz_thread/src/main/java/com/tpy/springboot_quartz_thread/config/SchedulerConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_quartz_thread/src/main/java/com/tpy/springboot_quartz_thread/controller/HelloController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_quartz_thread/src/main/java/com/tpy/springboot_quartz_thread/controller/JobController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_quartz_thread/src/main/java/com/tpy/springboot_quartz_thread/dao/JobAndTriggerMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_quartz_thread/src/main/java/com/tpy/springboot_quartz_thread/entity/JobAndTrigger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_quartz_thread/src/main/java/com/tpy/springboot_quartz_thread/job/BaseJob.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_quartz_thread/src/main/java/com/tpy/springboot_quartz_thread/job/HelloJob.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_quartz_thread/src/main/java/com/tpy/springboot_quartz_thread/job/NewJob.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_quartz_thread/src/main/java/com/tpy/springboot_quartz_thread/service/IJobAndTriggerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_quartz_thread/src/main/java/com/tpy/springboot_quartz_thread/service/impl/JobAndTriggerImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_quartz_thread/src/main/resources/mapper/JobMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_quartz_thread/src/main/resources/quartz.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/springboot_quartz_thread/src/main/resources/templates/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_generator/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_generator/src/main/java/com/tpy/ApplicationMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_generator/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springboot_generator/src/main/resources/generatorConfig.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springboot_jdbc_druid/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_jdbc_druid/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot_jdbc_druid/src/main/java/com/tpy/springboot_jdbc_druid/utils/JDBCUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_jdbc_druid/src/main/java/com/tpy/springboot_jdbc_druid/utils/JDBCUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_quartz_thread/src/main/java/com/tpy/springboot_quartz_thread/controller/JobController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_quartz_thread/src/main/java/com/tpy/springboot_quartz_thread/controller/JobController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_quartz_thread/src/main/java/com/tpy/springboot_quartz_thread/job/HelloJob.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_quartz_thread/src/main/java/com/tpy/springboot_quartz_thread/job/HelloJob.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_quartz_thread/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_quartz_thread/src/main/resources/application.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/springboot_jdbc_druid/target/" />
     <ignored path="$PROJECT_DIR$/springboot_quartz/target/" />
     <ignored path="$PROJECT_DIR$/springboot_quartz_thread/target/" />
+    <ignored path="$PROJECT_DIR$/springboot_generator/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,26 +22,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/springboot_quartz_thread/src/main/resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="3" column="33" lean-forward="true" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/springboot_quartz_thread/src/main/resources/quartz.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="30" column="58" selection-start-line="30" selection-start-column="58" selection-end-line="30" selection-end-column="58" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -79,6 +38,7 @@
       <find>ScheduleRefreshService</find>
       <find>JobBuilder</find>
       <find>DefaultQuartzScheduler</find>
+      <find>isClustered</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -117,21 +77,33 @@
         <option value="$PROJECT_DIR$/springboot_quartz_thread/src/main/java/com/tpy/springboot_quartz_thread/job/QuartzTask.java" />
         <option value="$PROJECT_DIR$/springboot_quartz_thread/src/main/java/com/tpy/springboot_quartz_thread/controller/HelloController.java" />
         <option value="$PROJECT_DIR$/springboot_quartz_thread/src/main/java/com/tpy/springboot_quartz_thread/job/BaseJob.java" />
-        <option value="$PROJECT_DIR$/springboot_quartz_thread/src/main/java/com/tpy/springboot_quartz_thread/job/HelloJob.java" />
         <option value="$PROJECT_DIR$/springboot_quartz_thread/src/main/java/com/tpy/springboot_quartz_thread/job/NewJob.java" />
         <option value="$PROJECT_DIR$/springboot_quartz_thread/src/main/java/com/tpy/springboot_quartz_thread/entity/JobAndTrigger.java" />
         <option value="$PROJECT_DIR$/springboot_quartz_thread/src/main/java/com/tpy/springboot_quartz_thread/dao/JobAndTriggerMapper.java" />
         <option value="$PROJECT_DIR$/springboot_quartz_thread/src/main/resources/mapper/JobMapper.xml" />
         <option value="$PROJECT_DIR$/springboot_quartz_thread/src/main/java/com/tpy/springboot_quartz_thread/service/IJobAndTriggerService.java" />
         <option value="$PROJECT_DIR$/springboot_quartz_thread/src/main/java/com/tpy/springboot_quartz_thread/service/JobAndTriggerImpl.java" />
-        <option value="$PROJECT_DIR$/springboot_quartz_thread/src/main/java/com/tpy/springboot_quartz_thread/controller/JobController.java" />
         <option value="$PROJECT_DIR$/springboot_quartz_thread/src/main/java/com/tpy/springboot_quartz_thread/service/impl/JobAndTriggerImpl.java" />
         <option value="$PROJECT_DIR$/springboot_quartz_thread/src/main/resources/templates/index.html" />
         <option value="$PROJECT_DIR$/springboot_quartz_thread/src/main/java/com/tpy/springboot_quartz_thread/config/SchedulerConfig.java" />
         <option value="$PROJECT_DIR$/springboot_quartz_thread/pom.xml" />
-        <option value="$PROJECT_DIR$/springboot_quartz_thread/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/springboot_quartz_thread/src/main/java/com/tpy/springboot_quartz_thread/job/HelloJob.java" />
+        <option value="$PROJECT_DIR$/springboot_quartz_thread/src/main/java/com/tpy/springboot_quartz_thread/controller/JobController.java" />
         <option value="$PROJECT_DIR$/springboot_quartz_thread/src/main/resources/quartz.properties" />
+        <option value="$PROJECT_DIR$/springboot_generator/src/main/java/com/tpy/ApplicationMain.java" />
+        <option value="$PROJECT_DIR$/springboot_generator/src/main/resources/generatorConfig.xml" />
+        <option value="$PROJECT_DIR$/springboot_generator/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/springboot_quartz_thread/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/springboot_generator/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/springboot_generator/pom.xml" />
       </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/apache-maven-3.5.0-bin/apache-maven-3.5.0" />
+      </MavenGeneralSettings>
     </option>
   </component>
   <component name="MavenProjectNavigator">
@@ -139,17 +111,27 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="springboot_quartz_thread" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="springboot_generator" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="springboot_generator" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="springboot_generator" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
         </path>
       </expand>
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-12" />
-    <option name="y" value="-12" />
-    <option name="width" value="1386" />
-    <option name="height" value="747" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="15" />
+    <option name="y" value="30" />
+    <option name="width" value="1890" />
+    <option name="height" value="960" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -157,132 +139,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane" />
       <pane id="PackagesPane" />
       <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="SpringBoot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot_quartz_thread" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringBoot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot_quartz_thread" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringBoot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot_quartz_thread" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringBoot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot_quartz_thread" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringBoot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot_quartz_thread" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot_quartz_thread" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringBoot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot_quartz_thread" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot_quartz_thread" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringBoot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot_quartz_thread" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot_quartz_thread" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringBoot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot_quartz_thread" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot_quartz_thread" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringBoot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot_quartz_thread" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot_quartz_thread" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringBoot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot_quartz_thread" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot_quartz_thread" type="462c0819:PsiDirectoryNode" />
-              <item name="job" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringBoot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot_quartz_thread" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot_quartz_thread" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringBoot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot_quartz_thread" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="springboot_quartz_thread" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringBoot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot_quartz_thread" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringBoot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot_quartz_thread" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringBoot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot_quartz_thread" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -293,7 +152,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1599386356459" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1599463130040" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -301,7 +160,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="Lombok plugin" />
+    <property name="settings.editor.selected.configurable" value="preferences.externalResources" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -321,7 +180,40 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.SpringbootQuartzThreadApplication">
+  <component name="RunManager" selected="Maven.springboot_generator [mybatis-generator:generate...]">
+    <configuration name="springboot_generator [mybatis-generator:generate...]" type="MavenRunConfiguration" factoryName="Maven" nameIsGenerated="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="mybatis-generator:generate" />
+                <option value="-e" />
+              </list>
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$/springboot_generator" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+    <configuration name="ApplicationMain" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="springboot_generator" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tpy.ApplicationMain" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ApplicationQuartzMain" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="springboot_quartz" />
       <extension name="coverage">
@@ -349,6 +241,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Maven.springboot_generator [mybatis-generator:generate...]" />
+      <item itemvalue="Spring Boot.ApplicationMain" />
+      <item itemvalue="Spring Boot.SpringbootJdbcDruidApplication" />
+      <item itemvalue="Spring Boot.SpringbootQuartzThreadApplication" />
+      <item itemvalue="Spring Boot.ApplicationQuartzMain" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.ApplicationQuartzMain" />
@@ -370,7 +269,11 @@
       <workItem from="1599208046777" duration="80000" />
       <workItem from="1599295933136" duration="32000" />
       <workItem from="1599362849331" duration="14224000" />
-      <workItem from="1599385914004" duration="262000" />
+      <workItem from="1599385914004" duration="835000" />
+      <workItem from="1599441261357" duration="1555000" />
+      <workItem from="1599442960500" duration="2731000" />
+      <workItem from="1599447799371" duration="6962000" />
+      <workItem from="1599461048986" duration="1904000" />
     </task>
     <task id="LOCAL-00001" summary="提交SpringBoot JDBC druid demo">
       <created>1599204394473</created>
@@ -383,11 +286,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16281000" />
+    <option name="totallyTimeSpent" value="30006000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="1" />
@@ -396,11 +298,11 @@
       <window_info id="UI Designer" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info id="Web" order="6" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="7" weight="0.36620858" />
+      <window_info active="true" content_ui="combo" id="Project" order="7" visible="true" weight="0.2279709" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.69627" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.8667851" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.053285968" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.80639434" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -436,60 +338,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/springboot_jdbc_druid/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot_jdbc_druid/src/main/java/com/tpy/springboot_jdbc_druid/api/ResponseResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot_jdbc_druid/src/main/java/com/tpy/springboot_jdbc_druid/config/DruidConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1081">
-          <caret line="53" selection-start-line="53" selection-end-line="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot_jdbc_druid/src/main/java/com/tpy/springboot_jdbc_druid/entity/Color.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="3" column="4" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
-          <folding>
-            <element signature="e#168#169#0" expanded="true" />
-            <element signature="e#201#202#0" expanded="true" />
-            <element signature="e#253#254#0" expanded="true" />
-            <element signature="e#297#298#0" expanded="true" />
-            <element signature="e#332#333#0" expanded="true" />
-            <element signature="e#363#364#0" expanded="true" />
-            <element signature="e#411#412#0" expanded="true" />
-            <element signature="e#451#452#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot_jdbc_druid/src/main/java/com/tpy/springboot_jdbc_druid/utils/JDBCUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="328">
-          <caret line="12" column="10" lean-forward="true" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="method#executeSql#0;class#JDBCUtils#0" />
-            <element signature="method#executeQueryMap#0;class#JDBCUtils#0" />
-            <element signature="method#close#0;class#JDBCUtils#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/springboot_jdbc_druid/src/main/java/com/tpy/springboot_jdbc_druid/SpringbootJdbcDruidApplication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -618,13 +466,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/springboot_quartz_thread/src/main/java/com/tpy/springboot_quartz_thread/service/QuartzServiceImpl.java" />
-    <entry file="file://$PROJECT_DIR$/springboot_jdbc_druid/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="28" column="32" lean-forward="true" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/springboot_quartz_thread/src/main/java/com/tpy/springboot_quartz_thread/job/BaseJob.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -632,13 +473,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot_quartz_thread/src/main/resources/mapper/JobMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="16">
-          <caret line="2" column="77" lean-forward="true" selection-start-line="2" selection-start-column="77" selection-end-line="2" selection-end-column="77" />
         </state>
       </provider>
     </entry>
@@ -673,13 +507,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springboot_quartz_thread/src/main/resources/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="295" lean-forward="true" selection-start-line="295" selection-end-line="295" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/springboot_quartz_thread/src/main/java/com/tpy/springboot_quartz_thread/dao/JobAndTriggerMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -701,23 +528,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="137" lean-forward="true" selection-start-line="137" selection-end-line="137" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot_quartz_thread/src/main/java/com/tpy/springboot_quartz_thread/controller/JobController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-463">
-          <caret line="35" selection-start-line="35" selection-end-line="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot_quartz_thread/src/main/java/com/tpy/springboot_quartz_thread/job/HelloJob.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
@@ -756,24 +566,109 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springboot_quartz_thread/src/main/java/com/tpy/springboot_quartz_thread/config/SchedulerConfig.java">
+    <entry file="file://$PROJECT_DIR$/springboot_quartz_thread/src/main/resources/mapper/JobMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="8" column="22" lean-forward="true" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+        <state relative-caret-position="120">
+          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/springboot_quartz_thread/src/main/resources/application.properties">
+    <entry file="file://$PROJECT_DIR$/springboot_quartz_thread/src/main/java/com/tpy/springboot_quartz_thread/job/HelloJob.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="3" column="33" lean-forward="true" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
+        <state relative-caret-position="420">
+          <caret line="18" column="51" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot_quartz_thread/src/main/resources/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="22" column="18" lean-forward="true" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot_quartz_thread/src/main/java/com/tpy/springboot_quartz_thread/controller/JobController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2264">
+          <caret line="39" column="12" selection-start-line="39" selection-start-column="12" selection-end-line="39" selection-end-column="12" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/springboot_quartz_thread/src/main/resources/quartz.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="30" column="58" selection-start-line="30" selection-start-column="58" selection-end-line="30" selection-end-column="58" />
+        <state relative-caret-position="60">
+          <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot_quartz_thread/src/main/java/com/tpy/springboot_quartz_thread/config/SchedulerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="44" column="39" selection-start-line="44" selection-start-column="39" selection-end-line="44" selection-end-column="39" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot_jdbc_druid/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="22" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot_jdbc_druid/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot_quartz_thread/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="4" column="35" lean-forward="true" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot_generator/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot_generator/src/main/java/com/tpy/ApplicationMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#237#238#0" expanded="true" />
+            <element signature="e#302#303#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot_generator/src/main/resources/mapper/UserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="23" column="7" lean-forward="true" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot_generator/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="594">
+          <caret line="63" column="21" lean-forward="true" selection-start-line="63" selection-start-column="21" selection-end-line="63" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot_generator/src/main/resources/generatorConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="12" column="27" lean-forward="true" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
         </state>
       </provider>
     </entry>
@@ -829,7 +724,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>springboot_quartz</last-edited>
+          <last-edited>springboot_generator</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
