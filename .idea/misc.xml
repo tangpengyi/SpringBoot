@@ -6,6 +6,7 @@
         <option value="$PROJECT_DIR$/springboot_jdbc_druid/pom.xml" />
         <option value="$PROJECT_DIR$/springboot_quartz/pom.xml" />
         <option value="$PROJECT_DIR$/springboot_quartz_thread/pom.xml" />
+        <option value="$PROJECT_DIR$/pol-excel/pom.xml" />
       </list>
     </option>
   </component>
