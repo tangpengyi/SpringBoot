@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/pol-excel/pol-excel.iml" filepath="$PROJECT_DIR$/pol-excel/pol-excel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/response_result/response_result.iml" filepath="$PROJECT_DIR$/response_result/response_result.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot_generator/springboot_generator.iml" filepath="$PROJECT_DIR$/springboot_generator/springboot_generator.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot_jdbc_druid/springboot_jdbc_druid.iml" filepath="$PROJECT_DIR$/springboot_jdbc_druid/springboot_jdbc_druid.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot_quartz/springboot_quartz.iml" filepath="$PROJECT_DIR$/springboot_quartz/springboot_quartz.iml" />

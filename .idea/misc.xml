@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/springboot_quartz_thread/boot_properties" />
+  </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
@@ -7,7 +10,13 @@
         <option value="$PROJECT_DIR$/springboot_quartz/pom.xml" />
         <option value="$PROJECT_DIR$/springboot_quartz_thread/pom.xml" />
         <option value="$PROJECT_DIR$/pol-excel/pom.xml" />
+        <option value="$PROJECT_DIR$/response_result/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/springboot_quartz_thread/boot_properties/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager">

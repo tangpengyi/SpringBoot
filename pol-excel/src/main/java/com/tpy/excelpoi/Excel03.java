@@ -2,14 +2,10 @@ package com.tpy.excelpoi;
 
 import org.apache.poi.hssf.usermodel.HSSFWorkbook;
 import org.apache.poi.ss.usermodel.*;
-import org.apache.poi.xssf.usermodel.XSSFWorkbook;
-import org.apache.poi.xssf.usermodel.helpers.XSSFFormulaUtils;
 import org.joda.time.DateTime;
 import org.junit.Test;
 
 import java.io.*;
-import java.sql.SQLOutput;
-import java.util.Date;
 
 public class Excel03 {
 

@@ -2,24 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="049de013-96fe-41a7-9746-700ae7684811" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pol-excel/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pol-excel/src/main/java/com/tpy/ApplicationMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pol-excel/src/main/java/com/tpy/controller/StudentDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pol-excel/src/main/java/com/tpy/controller/WebTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pol-excel/src/main/java/com/tpy/easyexcel/EasyExcelDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pol-excel/src/main/java/com/tpy/easyexcel/StudentListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pol-excel/src/main/java/com/tpy/excelpoi/Excel03.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pol-excel/src/main/java/com/tpy/excelpoi/Excel07.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pol-excel/src/main/java/com/tpy/rntity/DownloadData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pol-excel/src/main/java/com/tpy/rntity/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pol-excel/src/main/java/com/tpy/rntity/UploadData.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot_generator/target/classes/com/tpy/ApplicationMain.class" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/response_result/src/main/java/com/tpy/response_result/advice/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/response_result/src/main/java/com/tpy/response_result/advice/ResponseResultHandle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/response_result/src/main/java/com/tpy/response_result/api/ErrorResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/response_result/src/main/java/com/tpy/response_result/config/InterceptorConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/response_result/src/main/java/com/tpy/response_result/config/ValidatorConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/response_result/src/main/java/com/tpy/response_result/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/response_result/src/main/java/com/tpy/response_result/entity/DemoModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/response_result/src/main/java/com/tpy/response_result/interceptor/ResponseResultInterceptor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pol-excel/src/main/java/com/tpy/excelpoi/Excel03.java" beforeDir="false" afterPath="$PROJECT_DIR$/pol-excel/src/main/java/com/tpy/excelpoi/Excel03.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pol-excel/target/classes/com/tpy/controller/WebTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/pol-excel/target/classes/com/tpy/controller/WebTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot_quartz_thread/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_quartz_thread/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/springboot_jdbc_druid/target/" />
     <ignored path="$PROJECT_DIR$/springboot_quartz/target/" />
     <ignored path="$PROJECT_DIR$/springboot_quartz_thread/target/" />
     <ignored path="$PROJECT_DIR$/springboot_generator/target/" />
     <ignored path="$PROJECT_DIR$/pol-excel/target/" />
+    <ignored path="$PROJECT_DIR$/springboot_quartz_thread/boot_properties/target/" />
+    <ignored path="$PROJECT_DIR$/response_result/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,18 +28,62 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pol-excel/src/main/java/com/tpy/controller/WebTest.java">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/response_result/src/main/java/com/tpy/response_result/interceptor/ResponseResultInterceptor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-314">
-              <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
+            <state relative-caret-position="150">
+              <caret line="23" column="27" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="docComment;method#downloadFailedUsingJson#0;class#WebTest#0" />
-                <element signature="docComment;method#upload#0;class#WebTest#0" />
-                <element signature="method#upload#0;class#WebTest#0" />
-                <element signature="method#data#0;class#WebTest#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/response_result/src/main/java/com/tpy/response_result/controller/UserController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/response_result/src/main/java/com/tpy/response_result/advice/GlobalExceptionHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/response_result/src/main/java/com/tpy/response_result/advice/ResponseResultHandle.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="226">
+              <caret line="44" column="26" lean-forward="true" selection-start-line="44" selection-start-column="26" selection-end-line="44" selection-end-column="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/response_result/src/main/java/com/tpy/response_result/api/ResponseResult.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -49,9 +94,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="FxmlFile" />
         <option value="HTML File" />
         <option value="Interface" />
+        <option value="AnnotationType" />
+        <option value="FxmlFile" />
         <option value="Class" />
       </list>
     </option>
@@ -71,19 +117,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/springboot_quartz/src/main/java/com/tpy/springboot_quartz/job/ScheduledTask.java" />
-        <option value="$PROJECT_DIR$/springboot_quartz/src/main/java/com/tpy/springboot_quartz/service/ScheduleRefreshService.java" />
-        <option value="$PROJECT_DIR$/springboot_quartz/src/main/java/com/tpy/springboot_quartz/entity/Config.java" />
-        <option value="$PROJECT_DIR$/springboot_quartz/src/main/java/com/tpy/springboot_quartz/entity/TaskCronJob.java" />
-        <option value="$PROJECT_DIR$/springboot_quartz/src/main/java/com/tpy/springboot_quartz/entity/TaskSimJob.java" />
-        <option value="$PROJECT_DIR$/springboot_quartz/pom.xml" />
-        <option value="$PROJECT_DIR$/springboot_quartz_thread/src/main/java/com/tpy/springboot_quartz_thread/entity/TaskSimJob.java" />
-        <option value="$PROJECT_DIR$/springboot_quartz_thread/src/main/java/com/tpy/springboot_quartz_thread/utils/TaskUtils.java" />
-        <option value="$PROJECT_DIR$/springboot_quartz_thread/src/main/java/com/tpy/springboot_quartz_thread/service/TaskCronJobService.java" />
-        <option value="$PROJECT_DIR$/springboot_quartz_thread/src/main/java/com/tpy/springboot_quartz_thread/service/TaskSimJobService.java" />
-        <option value="$PROJECT_DIR$/springboot_quartz_thread/src/main/java/com/tpy/springboot_quartz_thread/service/TaskInitService.java" />
-        <option value="$PROJECT_DIR$/springboot_quartz_thread/src/main/java/com/tpy/springboot_quartz_thread/service/QuartzServiceImpl.java" />
-        <option value="$PROJECT_DIR$/springboot_quartz_thread/src/main/java/com/tpy/springboot_quartz_thread/entity/TaskCronJob.java" />
         <option value="$PROJECT_DIR$/springboot_quartz_thread/src/main/java/com/tpy/springboot_quartz_thread/job/QuartzTask.java" />
         <option value="$PROJECT_DIR$/springboot_quartz_thread/src/main/java/com/tpy/springboot_quartz_thread/controller/HelloController.java" />
         <option value="$PROJECT_DIR$/springboot_quartz_thread/src/main/java/com/tpy/springboot_quartz_thread/job/BaseJob.java" />
@@ -122,6 +155,19 @@
         <option value="$PROJECT_DIR$/pol-excel/pom.xml" />
         <option value="$PROJECT_DIR$/pol-excel/src/main/java/com/tpy/ApplicationMain.java" />
         <option value="$PROJECT_DIR$/pol-excel/src/main/java/com/tpy/controller/WebTest.java" />
+        <option value="$PROJECT_DIR$/pol-excel/src/main/java/com/tpy/excelpoi/Excel03.java" />
+        <option value="$PROJECT_DIR$/springboot_quartz_thread/boot_properties/pom.xml" />
+        <option value="$PROJECT_DIR$/response_result/src/main/java/com/tpy/response_result/interceptor/ResponseResultInterceptor.java" />
+        <option value="$PROJECT_DIR$/response_result/src/main/java/com/tpy/response_result/api/ErrorResult.java" />
+        <option value="$PROJECT_DIR$/response_result/src/main/java/com/tpy/response_result/annototion/ResponseResult.java" />
+        <option value="$PROJECT_DIR$/response_result/src/main/java/com/tpy/response_result/config/InterceptorConfig.java" />
+        <option value="$PROJECT_DIR$/response_result/src/main/java/com/tpy/response_result/config/ValidatorConfiguration.java" />
+        <option value="$PROJECT_DIR$/response_result/src/main/java/com/tpy/response_result/entity/DemoModel.java" />
+        <option value="$PROJECT_DIR$/response_result/src/main/java/com/tpy/response_result/advice/GlobalExceptionHandler.java" />
+        <option value="$PROJECT_DIR$/response_result/src/main/java/com/tpy/response_result/api/ResponseResult.java" />
+        <option value="$PROJECT_DIR$/response_result/pom.xml" />
+        <option value="$PROJECT_DIR$/response_result/src/main/java/com/tpy/response_result/advice/ResponseResultHandle.java" />
+        <option value="$PROJECT_DIR$/response_result/src/main/java/com/tpy/response_result/controller/UserController.java" />
       </list>
     </option>
   </component>
@@ -150,58 +196,90 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="SpringBoot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pol-excel" type="462c0819:PsiDirectoryNode" />
+              <item name="response_result" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SpringBoot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pol-excel" type="462c0819:PsiDirectoryNode" />
+              <item name="response_result" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SpringBoot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pol-excel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="SpringBoot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pol-excel" type="462c0819:PsiDirectoryNode" />
+              <item name="response_result" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SpringBoot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pol-excel" type="462c0819:PsiDirectoryNode" />
+              <item name="response_result" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="tpy" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SpringBoot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="pol-excel" type="462c0819:PsiDirectoryNode" />
+              <item name="response_result" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="tpy" type="462c0819:PsiDirectoryNode" />
+              <item name="response_result" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBoot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="response_result" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="response_result" type="462c0819:PsiDirectoryNode" />
+              <item name="advice" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBoot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="response_result" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="response_result" type="462c0819:PsiDirectoryNode" />
+              <item name="annototion" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBoot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="response_result" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="response_result" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringBoot" type="b2602c69:ProjectViewProjectNode" />
+              <item name="response_result" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="response_result" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SpringBoot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springboot_quartz" type="462c0819:PsiDirectoryNode" />
+              <item name="response_result" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="response_result" type="462c0819:PsiDirectoryNode" />
+              <item name="interceptor" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -212,7 +290,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1599616723717" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1605768525678" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -240,7 +318,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ApplicationMain (1)">
+  <component name="RunManager" selected="Spring Boot.ResponseResultApplication">
     <configuration name="EasyExcelDemo.simpleWriter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="pol-excel" />
       <extension name="coverage">
@@ -358,6 +436,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ResponseResultApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="response_result" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tpy.response_result.ResponseResultApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SpringbootJdbcDruidApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="springboot_jdbc_druid" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.tpy.springboot_jdbc_druid.SpringbootJdbcDruidApplication" />
@@ -383,6 +468,7 @@
       <item itemvalue="Spring Boot.SpringbootQuartzThreadApplication" />
       <item itemvalue="Spring Boot.ApplicationQuartzMain" />
       <item itemvalue="Spring Boot.ApplicationMain (1)" />
+      <item itemvalue="Spring Boot.ResponseResultApplication" />
     </list>
     <recent_temporary>
       <list>
@@ -415,7 +501,12 @@
       <workItem from="1599447799371" duration="6962000" />
       <workItem from="1599461048986" duration="2362000" />
       <workItem from="1599535786118" duration="15837000" />
-      <workItem from="1599614103361" duration="2596000" />
+      <workItem from="1599614103361" duration="5437000" />
+      <workItem from="1599632845298" duration="2463000" />
+      <workItem from="1599700886952" duration="1122000" />
+      <workItem from="1599823817035" duration="885000" />
+      <workItem from="1605596345098" duration="177000" />
+      <workItem from="1605754128581" duration="9791000" />
     </task>
     <task id="LOCAL-00001" summary="提交SpringBoot JDBC druid demo">
       <created>1599204394473</created>
@@ -460,7 +551,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48897000" />
+    <option name="totallyTimeSpent" value="66176000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="695" extended-state="6" />
@@ -473,11 +564,11 @@
       <window_info id="UI Designer" order="4" />
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info id="Web" order="6" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="7" weight="0.3597413" />
+      <window_info content_ui="combo" id="Project" order="7" weight="0.28779304" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3285968" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.62166965" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.053285968" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.053285968" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.053285968" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -485,7 +576,7 @@
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" weight="0.3285968" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.3285968" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.053285968" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
       <window_info anchor="bottom" id="Version Control" order="14" />
@@ -513,233 +604,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/springboot_quartz/src/main/java/com/tpy/springboot_quartz/job/ScheduledTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="9" column="10" lean-forward="true" selection-start-line="9" selection-start-column="10" selection-end-line="9" selection-end-column="10" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot_quartz/src/main/java/com/tpy/springboot_quartz/config/QuartzConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1740">
-          <caret line="58" column="21" lean-forward="true" selection-start-line="58" selection-start-column="21" selection-end-line="58" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot_quartz_thread/src/main/java/com/tpy/springboot_quartz_thread/service/QuartzServiceImpl.java" />
-    <entry file="file://$PROJECT_DIR$/springboot_quartz_thread/src/main/java/com/tpy/springboot_quartz_thread/job/BaseJob.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot_quartz_thread/src/main/java/com/tpy/springboot_quartz_thread/controller/HelloController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="47" selection-start-line="3" selection-start-column="47" selection-end-line="3" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot_quartz_thread/src/main/java/com/tpy/springboot_quartz_thread/service/IJobAndTriggerService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/quartz-scheduler/quartz/2.3.2/quartz-2.3.2.jar!/org/quartz/Scheduler.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="178">
-          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot_quartz_thread/src/main/java/com/tpy/springboot_quartz_thread/dao/JobAndTriggerMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="11" column="29" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot_quartz_thread/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="116" column="41" lean-forward="true" selection-start-line="116" selection-start-column="41" selection-end-line="116" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/spring-context/5.1.17.RELEASE/spring-context-5.1.17.RELEASE.jar!/org/springframework/context/support/DefaultLifecycleProcessor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="137" lean-forward="true" selection-start-line="137" selection-end-line="137" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot_quartz_thread/src/main/java/com/tpy/springboot_quartz_thread/entity/JobAndTrigger.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="47" selection-start-column="8" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot_quartz_thread/src/main/java/com/tpy/springboot_quartz_thread/job/NewJob.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot_quartz_thread/src/main/java/com/tpy/springboot_quartz_thread/service/impl/JobAndTriggerImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="12" column="8" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot_quartz_thread/src/main/resources/mapper/JobMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="4" column="16" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot_quartz_thread/src/main/java/com/tpy/springboot_quartz_thread/job/HelloJob.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="18" column="51" selection-start-line="18" selection-start-column="51" selection-end-line="18" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot_quartz_thread/src/main/resources/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="22" column="18" lean-forward="true" selection-start-line="22" selection-start-column="18" selection-end-line="22" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot_quartz_thread/src/main/java/com/tpy/springboot_quartz_thread/controller/JobController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2264">
-          <caret line="39" column="12" selection-start-line="39" selection-start-column="12" selection-end-line="39" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot_quartz_thread/src/main/resources/quartz.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot_quartz_thread/src/main/java/com/tpy/springboot_quartz_thread/config/SchedulerConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="44" column="39" selection-start-line="44" selection-start-column="39" selection-end-line="44" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot_jdbc_druid/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="20" column="4" selection-start-line="20" selection-start-column="4" selection-end-line="22" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot_jdbc_druid/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot_quartz_thread/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="4" column="35" lean-forward="true" selection-start-line="4" selection-start-column="35" selection-end-line="4" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot_generator/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot_generator/src/main/java/com/tpy/ApplicationMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="22" lean-forward="true" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#237#238#0" expanded="true" />
-            <element signature="e#302#303#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot_generator/src/main/resources/mapper/UserMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="23" column="7" lean-forward="true" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot_generator/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="63" column="21" lean-forward="true" selection-start-line="63" selection-start-column="21" selection-end-line="63" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot_generator/src/main/resources/generatorConfig.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="12" column="27" lean-forward="true" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/springboot_quartz_thread/src/main/java/com/tpy/springboot_quartz_thread/SpringbootQuartzThreadApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
-          <folding>
-            <element signature="e#280#281#0" expanded="true" />
-            <element signature="e#364#365#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/poi/poi-ooxml/3.9/poi-ooxml-3.9.jar!/org/apache/poi/xssf/usermodel/helpers/XSSFFormulaUtils.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1662">
-          <caret line="34" column="31" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -802,13 +666,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pol-excel/src/main/java/com/tpy/controller/StudentDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pol-excel/src/main/java/com/tpy/easyexcel/StudentListener.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="290">
@@ -846,10 +703,63 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/springboot_generator/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/easyexcel/2.2.0-beta2/easyexcel-2.2.0-beta2.jar!/com/alibaba/excel/metadata/AbstractParameterBuilder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/alibaba/easyexcel/2.2.0-beta2/easyexcel-2.2.0-beta2.jar!/com/alibaba/excel/EasyExcelFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="928">
+          <caret line="122" column="34" lean-forward="true" selection-start-line="122" selection-start-column="34" selection-end-line="122" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pol-excel/src/main/java/com/tpy/ApplicationMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pol-excel/src/main/java/com/tpy/controller/StudentDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pol-excel/src/main/java/com/tpy/controller/WebTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="10" selection-start-column="10" selection-end-column="10" />
+          <folding>
+            <element signature="docComment;class#WebTest#0" />
+            <element signature="docComment;method#downloadFailedUsingJson#0;class#WebTest#0" />
+            <element signature="method#downloadFailedUsingJson#0;class#WebTest#0" />
+            <element signature="docComment;method#upload#0;class#WebTest#0" />
+            <element signature="method#upload#0;class#WebTest#0" />
+            <element signature="method#data#0;class#WebTest#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pol-excel/src/main/java/com/tpy/excelpoi/Excel03.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="178">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#mian#0;class#Excel03#0" />
@@ -858,28 +768,199 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pol-excel/src/main/java/com/tpy/ApplicationMain.java">
+    <entry file="file://$PROJECT_DIR$/springboot_jdbc_druid/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="20" lean-forward="true" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot_jdbc_druid/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="4" column="19" lean-forward="true" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.8.0_261/src.zip!/javax/sql/DataSource.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="76" column="27" selection-start-line="76" selection-start-column="17" selection-end-line="76" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot_jdbc_druid/src/main/java/com/tpy/springboot_jdbc_druid/config/DruidConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="316">
+          <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot_jdbc_druid/src/main/java/com/tpy/springboot_jdbc_druid/utils/JDBCUtils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="6" column="30" lean-forward="true" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/springboot_quartz_thread/boot_properties/pom.xml" />
+    <entry file="jar://D:/Java/jdk1.8.0_261/src.zip!/java/lang/annotation/ElementType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="72" column="23" selection-start-line="72" selection-start-column="12" selection-end-line="72" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.8.0_261/src.zip!/java/lang/annotation/Target.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="78" column="26" selection-start-line="78" selection-start-column="26" selection-end-line="78" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/response_result/src/main/java/com/tpy/response_result/api/ErrorResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#237#238#0" expanded="true" />
-            <element signature="e#269#270#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pol-excel/src/main/java/com/tpy/controller/WebTest.java">
+    <entry file="file://$PROJECT_DIR$/response_result/src/main/java/com/tpy/response_result/annototion/ResponseResult.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-314">
-          <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
+        <state relative-caret-position="150">
+          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.2.10.RELEASE/spring-webmvc-5.2.10.RELEASE.jar!/org/springframework/web/servlet/config/annotation/WebMvcConfigurer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1272">
+          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/response_result/src/main/java/com/tpy/response_result/ResponseResultApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="38" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.2.10.RELEASE/spring-context-5.2.10.RELEASE.jar!/org/springframework/context/annotation/Configuration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="18" column="10" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/response_result/src/main/java/com/tpy/response_result/config/InterceptorConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="3" column="60" lean-forward="true" selection-start-line="3" selection-start-column="60" selection-end-line="3" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.2.10.RELEASE/spring-webmvc-5.2.10.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestResponseBodyAdviceChain.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="104" column="13" lean-forward="true" selection-start-line="104" selection-start-column="13" selection-end-line="104" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/validator/hibernate-validator/6.0.21.Final/hibernate-validator-6.0.21.Final.jar!/org/hibernate/validator/constraints/NotBlank.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="29" column="28" lean-forward="true" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/response_result/src/main/java/com/tpy/response_result/config/ValidatorConfiguration.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-254">
+          <caret line="6" column="34" lean-forward="true" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/response_result/src/main/java/com/tpy/response_result/entity/DemoModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-269">
+          <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="docComment;method#downloadFailedUsingJson#0;class#WebTest#0" />
-            <element signature="docComment;method#upload#0;class#WebTest#0" />
-            <element signature="method#upload#0;class#WebTest#0" />
-            <element signature="method#data#0;class#WebTest#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/code/gson/gson/2.8.6/gson-2.8.6.jar!/com/google/gson/Gson.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="378" column="18" selection-start-line="378" selection-start-column="18" selection-end-line="378" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.8.0_261/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="112" column="17" selection-start-line="112" selection-start-column="12" selection-end-line="112" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/response_result/src/main/java/com/tpy/response_result/interceptor/ResponseResultInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="23" column="27" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/response_result/src/main/java/com/tpy/response_result/api/ResponseResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="32" column="5" selection-start-line="32" selection-start-column="5" selection-end-line="32" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/response_result/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="37" lean-forward="true" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/response_result/src/main/java/com/tpy/response_result/advice/ResponseResultHandle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="44" column="26" lean-forward="true" selection-start-line="44" selection-start-column="26" selection-end-line="44" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/response_result/src/main/java/com/tpy/response_result/advice/GlobalExceptionHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/response_result/src/main/java/com/tpy/response_result/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="16" column="20" selection-start-line="16" selection-start-column="20" selection-end-line="16" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

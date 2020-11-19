@@ -7,13 +7,15 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="pol-excel" />
+        <module name="response_result" />
         <module name="springboot_generator" />
         <module name="springboot_quartz" />
-        <module name="springboot_quartz_thread" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="boot_properties" target="1.7" />
       <module name="pol-excel" target="1.8" />
+      <module name="response_result" target="1.8" />
       <module name="springboot_generator" target="1.8" />
       <module name="springboot_jdbc_druid" target="1.8" />
       <module name="springboot_quartz" target="1.8" />
@@ -22,7 +24,9 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="boot_properties" options="-parameters" />
       <module name="pol-excel" options="-parameters" />
+      <module name="response_result" options="-parameters" />
       <module name="springboot_generator" options="-parameters" />
       <module name="springboot_jdbc_druid" options="-parameters" />
       <module name="springboot_quartz" options="-parameters" />
